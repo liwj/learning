@@ -1,0 +1,11 @@
+lock:
+  expire: 10000
+
+idempotency:
+  key:
+    app-id: chapter1
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
